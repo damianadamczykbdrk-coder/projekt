@@ -1,0 +1,17 @@
+.Rproj.user
+
+.Rhistory
+
+.RData
+
+.Ruserdata
+
+.DS_Store
+
+*.tar.gz
+
+*.Rcheck/
+
+/inst/doc
+
+/man/figures/
