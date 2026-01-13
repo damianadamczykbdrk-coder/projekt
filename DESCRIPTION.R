@@ -1,0 +1,51 @@
+Package: NazwaWaszegoPakietu
+
+Type: Package
+
+Title: Wielokryterialna Analiza Decyzyjna w Środowisku Rozmytym z BWM
+
+Version: 0.1.0
+
+Author: Damian Adamczyk <damian.adamczyk@student.uj.edu.pl>
+  
+  Maintainer: Imię Nazwisko <email@student.uj.edu.pl>
+  
+  Description: Pakiet implementuje metody MCDA (TOPSIS, VIKOR, WASPAS) w środowisku
+
+rozmytym (Fuzzy Logic). Zawiera moduł automatycznego przetwarzania danych ankietowych
+
+na liczby rozmyte oraz solver dla metody Best-Worst Method (BWM) do wyznaczania wag kryteriów.
+
+License: GPL-3
+
+Encoding: UTF-8
+
+LazyData: true
+
+RoxygenNote: 7.3.1
+
+Imports:
+  
+  Rglpk,
+
+ggplot2,
+
+ggrepel,
+
+RankAggreg,
+
+stats
+
+Suggests:
+  
+  knitr,
+
+rmarkdown,
+
+testthat
+
+VignetteBuilder: knitr
+
+Depends:
+  
+  R (>= 3.5.0)
